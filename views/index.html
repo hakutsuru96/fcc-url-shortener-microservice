@@ -1,0 +1,71 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FCC - URL Shortener Service</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .highlight {
+        background: pink;
+        color: #945454;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        FCC - URL Shortener Service
+      </h1>
+    </header>
+
+    <main>
+      <h4>
+        Example Input
+       
+      </h4>
+      <span class="highlight">
+        https://profuse-elk.glitch.me/new/https://www.google.com
+        </span><br>
+      <h4>
+        Example Output
+      </h4>
+      <span class="highlight">
+        {"_id":"5a298bcb15befc3183f29e8a","original_url":"https://www.google.com","short_url":"https://profuse-elk.glitch.me/1"}
+      </span><br>
+      
+      <h4>
+        Usage
+      </h4>
+      <span class="highlight">
+        https://profuse-elk.glitch.me/1
+      </span><br>
+      
+      <h4>
+        Will be redirected to 
+      </h4>
+      <span class="highlight">
+        https://www.google.com
+      </span><br><br><br>
+    </main>
+
+    <footer>
+      <a href="https://glitch.com">
+        Remix this in Glitch
+      </a>
+    </footer>
+
+
+  </body>
+</html>
